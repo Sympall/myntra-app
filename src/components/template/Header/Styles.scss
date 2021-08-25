@@ -1,0 +1,44 @@
+.header-wrapper {
+  display: flex;
+  padding: 24px 32px;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  top: 0;
+  .left-section {
+    display: flex;
+    align-items: center;
+    .logo {
+      $size: 40px;
+      width: $size;
+      height: $size;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      font-size: 10px;
+      justify-content: center;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+
+    .navs {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 20px;
+      .nav-item {
+        text-transform: uppercase;
+        font-size: 14px;
+        cursor: pointer;
+        letter-spacing: 0.3px;
+        color: #282c3f;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.card-grid-wrapper {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  flex-grow: 1;
+}

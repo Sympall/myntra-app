@@ -1,0 +1,35 @@
+.filters-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  // width: 100%;
+  .filter-header {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: 12px;
+  }
+
+  .filter-item {
+    width: 100%;
+    text-align: start;
+    .filter-label {
+      cursor: pointer;
+      font-size: 12px;
+      input {
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      .filter-count {
+        font-size: 11px;
+        color: rgba(209, 209, 209, 0.972);
+      }
+    }
+  }
+
+  .more-label {
+    text-align: center;
+    font-size: 14px;
+    color: #d87093;
+  }
+}

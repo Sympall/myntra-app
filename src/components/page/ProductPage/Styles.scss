@@ -1,0 +1,17 @@
+$c-border: #e9e9ed;
+.product-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  .product-section {
+    border-top: 1px solid $c-border;
+    margin-top: 110px;
+    .filter-panel-wrapper {
+      width: 200px;
+      border-right: 1px solid $c-border;
+      & > div {
+        border-top: 1px solid $c-border;
+      }
+    }
+    display: flex;
+  }
+}

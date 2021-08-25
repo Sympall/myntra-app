@@ -1,0 +1,30 @@
+.radio-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  width: 130px;
+
+  .filter-header {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: 12px;
+  }
+
+  .filter-item {
+    width: 100%;
+    text-align: start;
+    .filter-label {
+      font-size: 12px;
+      cursor: pointer;
+      input {
+        cursor: pointer;
+        margin-right: 10px;
+      }
+      .filter-count {
+        font-size: 11px;
+        color: rgba(209, 209, 209, 0.972);
+      }
+    }
+  }
+}

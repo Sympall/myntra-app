@@ -1,0 +1,58 @@
+.product-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  height: 340px;
+  // border: 1px solid green;
+  .product-img {
+    flex-grow: 1;
+  }
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    .brand-label {
+      text-align: start;
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 4px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .name-label {
+      font-size: 10px;
+      text-align: start;
+      color: #808080;
+      margin-bottom: 4px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      -webkit-line-clamp: 2;
+    }
+
+    .price-info {
+      text-align: start;
+      display: flex;
+      .price-label {
+        font-size: 12px;
+        font-weight: bold;
+        margin-right: 4px;
+      }
+
+      .mrp {
+        font-size: 10px;
+        text-decoration: line-through;
+        color: #808080;
+        line-height: 17px;
+        margin-right: 4px;
+      }
+
+      .discount-label {
+        font-size: 12px;
+        color: #d87093;
+      }
+    }
+  }
+}
